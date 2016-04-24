@@ -1,0 +1,360 @@
+Day: 1
+
+Elevator 1:   People: 11   Trips: 9   Weight: 183 
+
+Elevator 2:   People: 11   Trips: 9   Items:  6  Weight: 310
+
+
+
+Day: 2
+
+Elevator 1:   People: 12   Trips: 8   Weight: 225 
+
+Elevator 2:   People: 12   Trips: 8   Items:  6  Weight: 557
+
+
+
+Day: 3
+
+Elevator 1:   People: 1   Trips: 1   Weight: 150 
+
+Elevator 2:   People: 1   Trips: 1   Items:  7  Weight: 958
+
+
+
+Day: 4
+
+Elevator 1:   People: 10   Trips: 2   Weight: 750 
+
+Elevator 2:   People: 10   Trips: 2   Items:  1  Weight: 650
+
+
+
+Day: 5
+
+Elevator 1:   People: 3   Trips: 1   Weight: 450 
+
+Elevator 2:   People: 3   Trips: 1   Items:  9  Weight: 792
+
+
+
+Day: 1
+
+Elevator 1:   People: 128   Trips: 103   Weight: 186 
+
+Elevator 2:   People: 128   Trips: 103   Items:  25  Weight: 236
+
+
+
+Day: 2
+
+Elevator 1:   People: 67   Trips: 54   Weight: 186 
+
+Elevator 2:   People: 67   Trips: 54   Items:  3  Weight: 470
+
+
+
+Day: 3
+
+Elevator 1:   People: 127   Trips: 42   Weight: 453 
+
+Elevator 2:   People: 127   Trips: 42   Items:  2  Weight: 3745
+
+
+
+Day: 4
+
+Elevator 1:   People: 82   Trips: 53   Weight: 232 
+
+Elevator 2:   People: 82   Trips: 53   Items:  29  Weight: 589
+
+
+
+Day: 5
+
+Elevator 1:   People: 194   Trips: 146   Weight: 199 
+
+Elevator 2:   People: 194   Trips: 146   Items:  3  Weight: 600
+
+
+
+Day: 6
+
+Elevator 1:   People: 151   Trips: 70   Weight: 323 
+
+Elevator 2:   People: 151   Trips: 70   Items:  32  Weight: 346
+
+
+
+Day: 7
+
+Elevator 1:   People: 196   Trips: 67   Weight: 438 
+
+Elevator 2:   People: 196   Trips: 67   Items:  48  Weight: 264
+
+
+
+Day: 8
+
+Elevator 1:   People: 152   Trips: 28   Weight: 814 
+
+Elevator 2:   People: 152   Trips: 28   Items:  1  Weight: 223
+
+
+
+Day: 9
+
+Elevator 1:   People: 190   Trips: 182   Weight: 156 
+
+Elevator 2:   People: 190   Trips: 182   Items:  42  Weight: 371
+
+
+
+Day: 10
+
+Elevator 1:   People: 146   Trips: 94   Weight: 232 
+
+Elevator 2:   People: 146   Trips: 94   Items:  13  Weight: 486
+
+
+
+Day: 1
+
+Elevator 1:   People: 86   Trips: 25   Weight: 516 
+
+Elevator 2:   People: 86   Trips: 25   Items:  15  Weight: 651
+
+
+
+Day: 2
+
+Elevator 1:   People: 154   Trips: 125   Weight: 184 
+
+Elevator 2:   People: 154   Trips: 125   Items:  32  Weight: 319
+
+
+
+Day: 3
+
+Elevator 1:   People: 6   Trips: 4   Weight: 225 
+
+Elevator 2:   People: 6   Trips: 4   Items:  18  Weight: 276
+
+
+
+Day: 4
+
+Elevator 1:   People: 192   Trips: 155   Weight: 185 
+
+Elevator 2:   People: 192   Trips: 155   Items:  42  Weight: 638
+
+
+
+Day: 5
+
+Elevator 1:   People: 125   Trips: 91   Weight: 206 
+
+Elevator 2:   People: 125   Trips: 91   Items:  21  Weight: 218
+
+
+
+Day: 6
+
+Elevator 1:   People: 172   Trips: 79   Weight: 326 
+
+Elevator 2:   People: 172   Trips: 79   Items:  6  Weight: 193
+
+
+
+Day: 7
+
+Elevator 1:   People: 192   Trips: 143   Weight: 201 
+
+Elevator 2:   People: 192   Trips: 143   Items:  27  Weight: 267
+
+
+
+Day: 8
+
+Elevator 1:   People: 62   Trips: 47   Weight: 197 
+
+Elevator 2:   People: 62   Trips: 47   Items:  5  Weight: 191
+
+
+
+Day: 9
+
+Elevator 1:   People: 7   Trips: 5   Weight: 210 
+
+Elevator 2:   People: 7   Trips: 5   Items:  3  Weight: 1305
+
+
+
+Day: 10
+
+Elevator 1:   People: 116   Trips: 47   Weight: 370 
+
+Elevator 2:   People: 116   Trips: 47   Items:  50  Weight: 270
+
+
+
+Day: 11
+
+Elevator 1:   People: 110   Trips: 82   Weight: 201 
+
+Elevator 2:   People: 110   Trips: 82   Items:  28  Weight: 655
+
+
+
+Day: 12
+
+Elevator 1:   People: 144   Trips: 45   Weight: 480 
+
+Elevator 2:   People: 144   Trips: 45   Items:  5  Weight: 1675
+
+
+
+Day: 13
+
+Elevator 1:   People: 200   Trips: 62   Weight: 483 
+
+Elevator 2:   People: 200   Trips: 62   Items:  38  Weight: 569
+
+
+
+Day: 14
+
+Elevator 1:   People: 168   Trips: 42   Weight: 600 
+
+Elevator 2:   People: 168   Trips: 42   Items:  23  Weight: 610
+
+
+
+Day: 15
+
+Elevator 1:   People: 182   Trips: 61   Weight: 447 
+
+Elevator 2:   People: 182   Trips: 61   Items:  8  Weight: 175
+
+
+
+Day: 16
+
+Elevator 1:   People: 151   Trips: 14   Weight: 1617 
+
+Elevator 2:   People: 151   Trips: 14   Items:  48  Weight: 305
+
+
+
+Day: 17
+
+Elevator 1:   People: 195   Trips: 25   Weight: 1170 
+
+Elevator 2:   People: 195   Trips: 25   Items:  16  Weight: 252
+
+
+
+Day: 18
+
+Elevator 1:   People: 152   Trips: 22   Weight: 1036 
+
+Elevator 2:   People: 152   Trips: 22   Items:  35  Weight: 2419
+
+
+
+Day: 19
+
+Elevator 1:   People: 120   Trips: 14   Weight: 1285 
+
+Elevator 2:   People: 120   Trips: 14   Items:  27  Weight: 585
+
+
+
+Day: 20
+
+Elevator 1:   People: 40   Trips: 29   Weight: 206 
+
+Elevator 2:   People: 40   Trips: 29   Items:  3  Weight: 184
+
+
+
+Day: 1
+
+Elevator 1:   People: 180   Trips: 110   Weight: 245 
+
+Elevator 2:   People: 180   Trips: 110   Items:  16  Weight: 277
+
+
+
+Day: 2
+
+Elevator 1:   People: 23   Trips: 20   Weight: 172 
+
+Elevator 2:   People: 23   Trips: 20   Items:  10  Weight: 1591
+
+
+
+Day: 3
+
+Elevator 1:   People: 72   Trips: 17   Weight: 635 
+
+Elevator 2:   People: 72   Trips: 17   Items:  46  Weight: 1063
+
+
+
+Day: 4
+
+Elevator 1:   People: 75   Trips: 16   Weight: 703 
+
+Elevator 2:   People: 75   Trips: 16   Items:  24  Weight: 940
+
+
+
+Day: 5
+
+Elevator 1:   People: 52   Trips: 47   Weight: 165 
+
+Elevator 2:   People: 52   Trips: 47   Items:  47  Weight: 536
+
+
+
+Day: 6
+
+Elevator 1:   People: 171   Trips: 64   Weight: 400 
+
+Elevator 2:   People: 171   Trips: 64   Items:  7  Weight: 392
+
+
+
+Day: 7
+
+Elevator 1:   People: 143   Trips: 9   Weight: 2383 
+
+Elevator 2:   People: 143   Trips: 9   Items:  39  Weight: 291
+
+
+
+Day: 8
+
+Elevator 1:   People: 19   Trips: 13   Weight: 219 
+
+Elevator 2:   People: 19   Trips: 13   Items:  29  Weight: 215
+
+
+
+Day: 9
+
+Elevator 1:   People: 28   Trips: 24   Weight: 175 
+
+Elevator 2:   People: 28   Trips: 24   Items:  9  Weight: 1252
+
+
+
+Day: 10
+
+Elevator 1:   People: 50   Trips: 8   Weight: 937 
+
+Elevator 2:   People: 50   Trips: 8   Items:  30  Weight: 2943
+
+
+

@@ -1,0 +1,198 @@
+Day: 10
+
+Elevator 1:   People: 2   Trips: 2   Weight: 0 
+
+
+Day: 0
+
+Elevator 2:   People: 0   Trips: 2   Items:  0  Weight: 0
+
+
+
+Day: 0
+
+Elevator 1:   People: 2   Trips: 2   Weight: 0 
+
+
+Day: 5
+
+Elevator 2:   People: 0   Trips: 2   Items:  2  Weight: 0
+
+
+
+Day: 10
+
+Elevator 1:   People: 2   Trips: 2   Weight: 0 
+
+
+Day: 0
+
+Elevator 2:   People: 0   Trips: 0   Items:  0  Weight: 0
+
+
+
+Day: 0
+
+Elevator 1:   People: 2   Trips: 2   Weight: 0 
+
+
+Day: 5
+
+Elevator 2:   People: 0   Trips: 0   Items:  2  Weight: 0
+
+
+
+Day: 10
+
+Elevator 1:   People: 2   Trips: 2   Weight: 150 
+
+
+Day: 0
+
+Elevator 2:   People: 0   Trips: 0   Items:  0  Weight: 0
+
+
+
+Day: 0
+
+Elevator 1:   People: 2   Trips: 2   Weight: 0 
+
+
+Day: 5
+
+Elevator 2:   People: 0   Trips: 0   Items:  2  Weight: 650
+
+
+
+Day: 11
+
+Elevator 1:   People: 2   Trips: 2   Weight: 1650 
+
+
+Day: 0
+
+Elevator 2:   People: 0   Trips: 0   Items:  0  Weight: 0
+
+
+
+Day: 0
+
+Elevator 1:   People: 2   Trips: 2   Weight: 0 
+
+
+Day: 6
+
+Elevator 2:   People: 0   Trips: 0   Items:  2  Weight: 3900
+
+
+
+Day: 10
+
+Elevator 1:   People: 2   Trips: 2   Weight: 1650 
+
+
+Day: 0
+
+Elevator 2:   People: 0   Trips: 0   Items:  0  Weight: 0
+
+
+
+Day: 0
+
+Elevator 1:   People: 2   Trips: 2   Weight: 0 
+
+
+Day: 5
+
+Elevator 2:   People: 0   Trips: 0   Items:  2  Weight: 3900
+
+
+
+Day: 11
+
+Elevator 1:   People: 2   Trips: 2   Weight: 1650 
+
+
+Day: 1
+
+Elevator 2:   People: 0   Trips: 0   Items:  0  Weight: 0
+
+
+
+Day: 1
+
+Elevator 1:   People: 2   Trips: 2   Weight: 0 
+
+
+Day: 6
+
+Elevator 2:   People: 0   Trips: 0   Items:  2  Weight: 3900
+
+
+
+Day: 11
+
+Elevator 1:   People: 2   Trips: 2   Weight: 1650 
+
+
+Day: 1
+
+Elevator 2:   People: 0   Trips: 0   Items:  0  Weight: 0
+
+
+
+Day: 1
+
+Elevator 1:   People: 2   Trips: 2   Weight: 0 
+
+
+Day: 6
+
+Elevator 2:   People: 0   Trips: 0   Items:  2  Weight: 3900
+
+
+
+Day: 11
+
+Elevator 1:   People: 2   Trips: 2   Weight: 1650 
+
+
+Day: 1
+
+Elevator 2:   People: 0   Trips: 0   Items:  0  Weight: 0
+
+
+
+Day: 1
+
+Elevator 1:   People: 2   Trips: 2   Weight: 0 
+
+
+Day: 6
+
+Elevator 2:   People: 0   Trips: 0   Items:  2  Weight: 3900
+
+
+
+Day: 6
+
+Elevator 1:   People: 20   Trips: 10   Weight: 1800 
+
+
+Day: 1
+
+Elevator 2:   People: 0   Trips: 0   Items:  0  Weight: 0
+
+
+
+Day: 1
+
+Elevator 1:   People: 20   Trips: 10   Weight: 0 
+
+
+Day: 9
+
+Elevator 2:   People: 0   Trips: 0   Items:  2  Weight: 3600
+
+
+
