@@ -61,7 +61,7 @@ C:\Users\Altitude\Documents\Elevator Software(2)\Elevator Software\obj\Debug\Ele
 C:\Users\Altitude\Documents\Elevator Software(2)\Elevator Software\obj\Debug\Elevator_Software.About.resources
 C:\Users\Altitude\Documents\Elevator Software(2)\Elevator Software\obj\Debug\Elevator_Software.Help.resources
 C:\Users\Altitude\Documents\Elevator Software(2)\Elevator Software\obj\Debug\Elevator_Software.Log.resources
-C:\Users\Altitude\Documents\Elevator Software(2)\Elevator Software\obj\Debug\Elevator_Software.ModeSelection.resources
+C:\Users\Altitude\Documents\Elevator Software(2)\Elevator Software\obj\Debug\Elevator_Software.ParentMDI.resources
 C:\Users\Altitude\Documents\Elevator Software(2)\Elevator Software\obj\Debug\Elevator_Software.PredictiveMode.resources
 C:\Users\Altitude\Documents\Elevator Software(2)\Elevator Software\obj\Debug\Elevator_Software.Properties.Resources.resources
 C:\Users\Altitude\Documents\Elevator Software(2)\Elevator Software\obj\Debug\Elevator_Software.SimulationMode.resources
@@ -69,3 +69,22 @@ C:\Users\Altitude\Documents\Elevator Software(2)\Elevator Software\obj\Debug\Ele
 C:\Users\Altitude\Documents\Elevator Software(2)\Elevator Software\obj\Debug\Elevator Software.csproj.GenerateResource.Cache
 C:\Users\Altitude\Documents\Elevator Software(2)\Elevator Software\obj\Debug\Elevator Software.exe
 C:\Users\Altitude\Documents\Elevator Software(2)\Elevator Software\obj\Debug\Elevator Software.pdb
+C:\Users\Altitude\Documents\Elevator Software(2)\Elevator Software\obj\Debug\Elevator Software.csprojResolveAssemblyReference.cache
+E:\Elevator Software(2)\Elevator Software\bin\Debug\Elevator Software.exe.config
+E:\Elevator Software(2)\Elevator Software\obj\Debug\Elevator Software.exe
+E:\Elevator Software(2)\Elevator Software\obj\Debug\Elevator Software.pdb
+E:\Elevator Software(2)\Elevator Software\bin\Debug\Log.mdf
+E:\Elevator Software(2)\Elevator Software\bin\Debug\Log_log.ldf
+E:\Elevator Software(2)\Elevator Software\bin\Debug\Elevator Software.exe
+E:\Elevator Software(2)\Elevator Software\bin\Debug\Elevator Software.pdb
+E:\Elevator Software(2)\Elevator Software\obj\Debug\Elevator Software.csprojResolveAssemblyReference.cache
+E:\Elevator Software(2)\Elevator Software\obj\Debug\Elevator_Software.Elevator_System.resources
+E:\Elevator Software(2)\Elevator Software\obj\Debug\Elevator_Software.About.resources
+E:\Elevator Software(2)\Elevator Software\obj\Debug\Elevator_Software.Help.resources
+E:\Elevator Software(2)\Elevator Software\obj\Debug\Elevator_Software.Log.resources
+E:\Elevator Software(2)\Elevator Software\obj\Debug\Elevator_Software.ParentMDI.resources
+E:\Elevator Software(2)\Elevator Software\obj\Debug\Elevator_Software.PredictiveMode.resources
+E:\Elevator Software(2)\Elevator Software\obj\Debug\Elevator_Software.Properties.Resources.resources
+E:\Elevator Software(2)\Elevator Software\obj\Debug\Elevator_Software.SimulationMode.resources
+E:\Elevator Software(2)\Elevator Software\obj\Debug\Elevator_Software.TestingMode.resources
+E:\Elevator Software(2)\Elevator Software\obj\Debug\Elevator Software.csproj.GenerateResource.Cache

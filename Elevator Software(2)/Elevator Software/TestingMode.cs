@@ -27,6 +27,7 @@ namespace Elevator_Software
         private void button_Run_Test_Click(object sender, EventArgs e)
         {
             Elevator_System frm = new Elevator_System();
+            frm.MdiParent = this.MdiParent;
             // Elevator 1 test mode
             if (textBox_Passengers_E1.Text.Trim().Length != 0 && textBox_Trips_E1.Text.Trim().Length != 0)
             {

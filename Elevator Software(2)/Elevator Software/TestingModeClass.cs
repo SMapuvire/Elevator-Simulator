@@ -63,17 +63,17 @@ namespace Elevator_Software
         {
             if (A > max_Weight_E1)
             {
-                MessageBox.Show("OverWeight Alarm Elevator 1", A.ToString());
+                MessageBox.Show("Elevator 1 OverWeight Alarm", A.ToString());
                 return true;
             }
             if (B > max_Trips)
             {
-                MessageBox.Show("Maximum Trips Exceeded Alarm Elevator 1", B.ToString());
+                MessageBox.Show("Elevator 1 Maximum Trips Exceeded Alarm", B.ToString());
                 return true;
             }
-            if (B > maintenance_E1 && B < max_Trips)
+            if (B > maintenance_E1)
             {
-                MessageBox.Show("Maintenance Alarm Elevator 1", B.ToString());
+                MessageBox.Show("Elevator 1 Maximum Trips Exceeded Alarm", B.ToString());
                 return true;
             }
             return false;
@@ -84,17 +84,17 @@ namespace Elevator_Software
         {
             if (A > max_Weight_E2)
             {
-                MessageBox.Show("OverWeight Alarm Elevator 2", A.ToString());
+                MessageBox.Show("Elevator 2 OverWeight Alarm", A.ToString());
                 return true;
             }
             if (B > max_Trips)
             {
-                MessageBox.Show("Maximum Trips Exceeded Alarm Elevator 2", B.ToString());
+                MessageBox.Show("Elevator 2 Maximum Trips Exceeded Alarm", B.ToString());
                 return true;
             }
-            if (B > maintenance_E2 && B < max_Trips)
+            if (B > maintenance_E2)
             {
-                MessageBox.Show("Maintenance Alarm Elevator 2", B.ToString());
+                MessageBox.Show("Elevator 2 Maximum Trips Exceeded Alarm", B.ToString());
                 return true;
             }
             return false;

@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.IO;
 using System.Threading;
+using System.Data.SqlClient;
 
 namespace Elevator_Software
 {
@@ -28,65 +29,84 @@ namespace Elevator_Software
             int tripweight;
             int tripweight2;
 
+           
+            
+        SqlCommand cmd = new SqlCommand();
+
         // Calculate random figures
         public void number_Generator(int days)
         {
+            
             using (System.IO.StreamWriter file = new System.IO.StreamWriter("WriteLines.txt", true))
             {
-                // Calculates random numbers for persons, weight and items
-                int i;
-                for ( i = 1; i <= days; i++)
+                using (SqlConnection dataConnection = new SqlConnection(@"Data Source=(LocalDB)\v11.0;AttachDbFilename=|DataDirectory|\Log.mdf;Integrated Security=True;Connect Timeout=30"))
                 {
-                    int temp_E1;
-                    int temp_E2;
-                    int temp2_E2;
-
-                    Random random = new Random();
-                    //Max persons per day 200
-                    persons_E1 = StaticRandom.Instance.Next(1, 201);
-                    trips_E1 = StaticRandom.Instance.Next(1, persons_E1);
-
-                    //Max Persons per day 300 and Max items per day 50
-                    persons_E2 = StaticRandom2.Instance.Next(1, 301);
-                    items_E2 = StaticRandom.Instance.Next(1, 51);
-
-                    temp2_E2 = persons_E2 + items_E2;
-                    trips_E2 = StaticRandom2.Instance.Next(1, temp2_E2);
-
-                    bool _alarm = false;
-
-                    Test_Calculate(trips_E1, persons_E1, ref _alarm);
-                    temp_E1 = Test_Calculate(trips_E1, persons_E1, ref _alarm);
-
-                    Test_Calculate(trips_E2, persons_E2, items_E2, ref _alarm);
-                    temp_E2 = Test_Calculate(trips_E2, persons_E2, items_E2, ref _alarm); 
-
-                    //writes each run to a text file
-                    file.WriteLine("Day: " + i + "\n");
-                    file.WriteLine("Elevator 1: " + "  People: " + persons_E1 + " " + "  Trips: " + trips_E1 + " " + "  Weight: " + temp_E1  + " " + "\n");
-                    file.WriteLine("Elevator 2: " + "  People: " + persons_E1 + " " + "  Trips: " + trips_E1 + " " + "  Items:  " + items_E2 + "  Weight: " + temp_E2 + "\n");
-                    file.WriteLine("\n");
-
-                    if (_alarm == true)
+                    using (SqlCommand dataCommand = dataConnection.CreateCommand())
                     {
-                        Elevator_System frm = new Elevator_System();
-                        //E1 
-                        tripweight = Test_Calculate(trips_E1, persons_E1, ref _alarm);
+
+                        // Calculates random numbers for persons, weight and items
+                        int i;
+                        for (i = 1; i <= days; i++)
+                        {
+                            int temp_E1;
+                            int temp_E2;
+                            int temp2_E2;
+
+                            Random random = new Random();
+                            //Max persons per day 200
+                            persons_E1 = StaticRandom.Instance.Next(1, 201);
+                            trips_E1 = StaticRandom.Instance.Next(1, persons_E1);
+
+                            //Max Persons per day 300 and Max items per day 50
+                            persons_E2 = StaticRandom2.Instance.Next(1, 301);
+                            items_E2 = StaticRandom.Instance.Next(1, 51);
+
+                            temp2_E2 = persons_E2 + items_E2;
+                            trips_E2 = StaticRandom2.Instance.Next(1, temp2_E2);
+
+                            bool _alarm = false;
+
+                            Test_Calculate(trips_E1, persons_E1, ref _alarm);
+                            temp_E1 = Test_Calculate(trips_E1, persons_E1, ref _alarm);
+
+                            Test_Calculate(trips_E2, persons_E2, items_E2, ref _alarm);
+                            temp_E2 = Test_Calculate(trips_E2, persons_E2, items_E2, ref _alarm);
+
+                            //writes each run to a text file
+                            file.WriteLine("Day: " + i + "\n");
+                            file.WriteLine("Elevator 1: " + "  People: " + persons_E1 + " " + "  Trips: " + trips_E1 + " " + "  Weight: " + temp_E1 + " " + "\n");
+                            file.WriteLine("Elevator 2: " + "  People: " + persons_E1 + " " + "  Trips: " + trips_E1 + " " + "  Items:  " + items_E2 + "  Weight: " + temp_E2 + "\n");
+                            file.WriteLine("\n");
+
+                            //Writing to database
+                            dataCommand.CommandText = "insert into Records(Weight,Trips,People) Values('" + persons_E1 + "','" + trips_E1 + "','" + persons_E1 + "')";
+                            //MessageBox.Show(dataCommand.CommandText);
+                            dataConnection.Open();
+                            dataCommand.ExecuteNonQuery();
+                            dataConnection.Close();
+
+                            if (_alarm == true)
+                            {
+                                Elevator_System frm = new Elevator_System();
+                                //E1 
+                                tripweight = Test_Calculate(trips_E1, persons_E1, ref _alarm);
 
 
-                        frm._textBox3 = Value3;
-                        frm._textBox = Value1;
-                        frm._textBox2 = Value2;
+                                frm._textBox3 = Value3;
+                                frm._textBox = Value1;
+                                frm._textBox2 = Value2;
 
-                        //E2
-                        tripweight2 = Test_Calculate(trips_E2, persons_E2, items_E2, ref _alarm);
+                                //E2
+                                tripweight2 = Test_Calculate(trips_E2, persons_E2, items_E2, ref _alarm);
 
-                        frm._textBox6 = Value6;
-                        frm._textBox4 = Value4;
-                        frm._textBox5 = Value5;
-                        frm._textBox7 = Value7;
+                                frm._textBox6 = Value6;
+                                frm._textBox4 = Value4;
+                                frm._textBox5 = Value5;
+                                frm._textBox7 = Value7;
 
-                        frm.Show();
+                                frm.Show();
+                            }
+                        }
                     }
                 }
             }
@@ -168,17 +188,17 @@ namespace Elevator_Software
         {
             if (A > max_Weight_E1)
             {
-                MessageBox.Show("OverWeight", A.ToString());
+                MessageBox.Show("Elevator 1 OverWeight Alarm", A.ToString());
                 return true;
             }
             if (B > max_Trips)
             {
-                MessageBox.Show("Maximum Trips Exceeded", B.ToString());
+                MessageBox.Show("Elevator 1 Maximum Trips Exceeded Alarm", B.ToString());
                 return true;
             }
             if (B > maintenance_E1)
             {
-                MessageBox.Show("Maximum Trips Exceeded", B.ToString());
+                MessageBox.Show("Elevator 1 Maximum Trips Exceeded Alarm", B.ToString());
                 return true;
             }
             return false;
@@ -189,17 +209,17 @@ namespace Elevator_Software
         {
             if (A > max_Weight_E2)
             {
-                MessageBox.Show("OverWeight", A.ToString());
+                MessageBox.Show("Elevator 2 OverWeight Alarm", A.ToString());
                 return true;
             }
             if (B > max_Trips)
             {
-                MessageBox.Show("Maximum Trips Exceeded", B.ToString());
+                MessageBox.Show("Elevator 2 Maximum Trips Exceeded Alarm", B.ToString());
                 return true;
             }
             if(B> maintenance_E2)
             {
-                MessageBox.Show("Maximum Trips Exceeded", B.ToString());
+                MessageBox.Show("Elevator 2 Maximum Trips Exceeded Alarm", B.ToString());
                 return true;
             }
             return false;

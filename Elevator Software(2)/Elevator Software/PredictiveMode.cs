@@ -30,7 +30,7 @@ namespace Elevator_Software
 
 
                     ElevatorFailureDays = predict.FailureCalculator(data_Trips_E1, data_Passenger_E1);
-                    predict.Print();
+                   // predict.Print();
             }
             else if (textBox_People_E1.Text.Trim().Length == 0 && textBox_Trips_E1.Text.Trim().Length == 0)
             {
@@ -48,7 +48,7 @@ namespace Elevator_Software
                 PredictiveModeClass predict = new PredictiveModeClass();
 
                 ElevatorFailureDays2 = predict.FailureCalculator(data_Trips_E2, data_Passenger_E2, data_Items_E2);
-                predict.Print();
+               // predict.Print();
             }
             else if (textBox_People_E2.Text.Trim().Length == 0 && textBox_Trips_E2.Text.Trim().Length == 0 &&
                      textBox_Items_E2.Text.Trim().Length == 0)

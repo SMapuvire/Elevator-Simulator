@@ -47,34 +47,43 @@ namespace Elevator_Software
         }
         public int FailureCalculator(int trips, int people)
         {
-
-            personE1 = people;
-            tripsE1 = trips;
-             
-
-            // Calculates the total weight of the passengers
-            int Max_Passenger_Weight = person_weight * people;
-
-            // Calculates the total weight for each trip
-            // Dvividing the total passenger weight by the trips
-            int trip_weight = Max_Passenger_Weight / trips;
-
-            int i = 0;
-            int Failure = trip_weight;
-            
-            if (trips < max_Trips)
+            using (System.IO.StreamWriter file = new System.IO.StreamWriter("WriteLines2.txt", true))
             {
-                // Calculate failure
-                while (Failure <= max_Weight_E1)
+                personE1 = people;
+                tripsE1 = trips;
+
+
+                // Calculates the total weight of the passengers
+                int Max_Passenger_Weight = person_weight * people;
+
+                // Calculates the total weight for each trip
+                // Dvividing the total passenger weight by the trips
+                int trip_weight = Max_Passenger_Weight / trips;
+
+                int i = 0;
+                int Failure = trip_weight;
+
+                if (trips < max_Trips)
                 {
-                    Failure = Failure + trip_weight;
-                    i++;
-                    j++;
+                    // Calculate failure
+                    while (Failure <= max_Weight_E1)
+                    {
+                        Failure = Failure + trip_weight;
+
+                        file.WriteLine("Day: " + j + "\n");
+                        file.WriteLine("Elevator 1: " + "  People: " + personE1 + " " + "  Trips: " + tripsE1 + " " + "  Weight: " + weightE1 + " " + "\n\n");
+                        file.WriteLine("Day: " + k + "\n");
+                        file.WriteLine("Elevator 2: " + "  People: " + personE2 + " " + "  Trips: " + tripsE2 + " " + "  Items:  " + itemsE2 + "  Weight: " + weightE2 + "\n");
+
+                        file.WriteLine("\n");
+
+                        i++;
+                        j++;
+                    }
                 }
-            }
-            weightE1 = Failure;
-            return i;
-            
+                weightE1 = Failure;
+                return i;
+            }  
             
         }
         public int FailureCalculator(int trips, int people, int items)

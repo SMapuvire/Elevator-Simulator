@@ -118,13 +118,16 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="elevator_inuse" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\elevator_inuse.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Elevator_Alarm" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Elevator_Alarm.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="elevator_idle" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\elevator_idle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Elevator_Alarm" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Elevator_Alarm.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="elevator_inuse" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\elevator_inuse.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG-20160412-WA0032" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG-20160412-WA0032.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

@@ -146,45 +146,9 @@ namespace Elevator_Software
         }
 
         
-        // Testing mode pop up window
-        private void testingModeToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            TestingMode frm = new TestingMode();
-            frm.Show();
-            
-        }
-        // Simulation Mode pop up window
-        private void simulationModeToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            
-            SimulationMode frm = new SimulationMode();
-            frm.Show();
-        }
-        // Predictive Mode pop up window
-        private void predicitiveModeToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            
-            PredictiveMode frm = new PredictiveMode();
-            frm.Show();
-
-
-        }
-
         private void button2_Click(object sender, EventArgs e)
         {
             this.Close();
-        }
-        // About pop up window
-        private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            About frm = new About();
-            frm.Show();
-        }
-        // Help pop up window
-        private void helpToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            Help from = new Help();
-            from.Show();
         }
 
 

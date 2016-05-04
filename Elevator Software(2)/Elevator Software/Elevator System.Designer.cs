@@ -52,13 +52,6 @@
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.button4 = new System.Windows.Forms.Button();
-            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.modeTypesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.testingModeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.simulationModeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.predicitiveModeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pictureBox10 = new System.Windows.Forms.PictureBox();
             this.pictureBox9 = new System.Windows.Forms.PictureBox();
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
@@ -70,7 +63,6 @@
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
-            this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
@@ -298,63 +290,6 @@
             this.button4.UseVisualStyleBackColor = true;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
-            // menuStrip1
-            // 
-            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.modeTypesToolStripMenuItem,
-            this.helpToolStripMenuItem,
-            this.aboutToolStripMenuItem});
-            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
-            this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(958, 24);
-            this.menuStrip1.TabIndex = 24;
-            this.menuStrip1.Text = "menuStrip1";
-            // 
-            // modeTypesToolStripMenuItem
-            // 
-            this.modeTypesToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.testingModeToolStripMenuItem,
-            this.simulationModeToolStripMenuItem,
-            this.predicitiveModeToolStripMenuItem});
-            this.modeTypesToolStripMenuItem.Name = "modeTypesToolStripMenuItem";
-            this.modeTypesToolStripMenuItem.Size = new System.Drawing.Size(83, 20);
-            this.modeTypesToolStripMenuItem.Text = "Mode Types";
-            // 
-            // testingModeToolStripMenuItem
-            // 
-            this.testingModeToolStripMenuItem.Name = "testingModeToolStripMenuItem";
-            this.testingModeToolStripMenuItem.Size = new System.Drawing.Size(165, 22);
-            this.testingModeToolStripMenuItem.Text = "Testing Mode";
-            this.testingModeToolStripMenuItem.Click += new System.EventHandler(this.testingModeToolStripMenuItem_Click);
-            // 
-            // simulationModeToolStripMenuItem
-            // 
-            this.simulationModeToolStripMenuItem.Name = "simulationModeToolStripMenuItem";
-            this.simulationModeToolStripMenuItem.Size = new System.Drawing.Size(165, 22);
-            this.simulationModeToolStripMenuItem.Text = "Simulation Mode";
-            this.simulationModeToolStripMenuItem.Click += new System.EventHandler(this.simulationModeToolStripMenuItem_Click);
-            // 
-            // predicitiveModeToolStripMenuItem
-            // 
-            this.predicitiveModeToolStripMenuItem.Name = "predicitiveModeToolStripMenuItem";
-            this.predicitiveModeToolStripMenuItem.Size = new System.Drawing.Size(165, 22);
-            this.predicitiveModeToolStripMenuItem.Text = "Predicitive Mode";
-            this.predicitiveModeToolStripMenuItem.Click += new System.EventHandler(this.predicitiveModeToolStripMenuItem_Click);
-            // 
-            // helpToolStripMenuItem
-            // 
-            this.helpToolStripMenuItem.Name = "helpToolStripMenuItem";
-            this.helpToolStripMenuItem.Size = new System.Drawing.Size(44, 20);
-            this.helpToolStripMenuItem.Text = "Help";
-            this.helpToolStripMenuItem.Click += new System.EventHandler(this.helpToolStripMenuItem_Click);
-            // 
-            // aboutToolStripMenuItem
-            // 
-            this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
-            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(52, 20);
-            this.aboutToolStripMenuItem.Text = "About";
-            this.aboutToolStripMenuItem.Click += new System.EventHandler(this.aboutToolStripMenuItem_Click);
-            // 
             // pictureBox10
             // 
             this.pictureBox10.Image = global::Elevator_Software.Properties.Resources.elevator_idle;
@@ -491,14 +426,10 @@
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.menuStrip1);
-            this.MainMenuStrip = this.menuStrip1;
             this.Name = "Elevator_System";
             this.Text = "Elevator System";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            this.menuStrip1.ResumeLayout(false);
-            this.menuStrip1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
@@ -548,14 +479,7 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.MenuStrip menuStrip1;
-        private System.Windows.Forms.ToolStripMenuItem modeTypesToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem testingModeToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem simulationModeToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem predicitiveModeToolStripMenuItem;
         private System.Windows.Forms.TextBox textBox_items_E2;
         private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.ToolStripMenuItem helpToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem aboutToolStripMenuItem;
     }
 }

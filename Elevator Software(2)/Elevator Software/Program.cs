@@ -12,7 +12,7 @@ namespace Elevator_Software
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new ModeSelection());
+            Application.Run(new ParentMDI());
            
         }
     }
